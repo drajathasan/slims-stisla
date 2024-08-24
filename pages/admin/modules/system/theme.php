@@ -60,7 +60,6 @@ if (isset($_POST['theme'])) {
     addOrUpdateSetting('template', $data);
   } else {
     $data['css'] = str_replace($sysconf['admin_template']['theme'], $data['theme'], $sysconf['admin_template']['css']);
-    dd($data);
     addOrUpdateSetting('admin_template', $data);
   }
   exit();

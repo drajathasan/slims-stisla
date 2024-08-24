@@ -1,0 +1,70 @@
+html {
+    overflow-x: hidden;
+}
+
+#mainContent {
+    overflow: hidden;
+    position: relative;
+    margin-left: 0px;
+    background: transparent;
+    min-height: 550px;
+}
+
+#mainMenu {
+    z-index: 1;
+    display: inline-flex;
+    position: relative;
+    background: transparent;
+    left: 0px;
+    color: white
+}
+
+#mainMenu a {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#mainMenu a.menuCurrent {
+    color: #6777ef;
+    background-color: white;
+    padding: 0.1px 15px 0.1px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.btn-default {
+    background-color: #64748b !important;
+}
+
+.btn {
+    border-radius: 15px;
+}
+
+.btn-info {
+    background-color: #0ea5e9;
+}
+
+.btn-info:hover {
+    background-color: #0284c7;
+}
+
+.btn-default:hover {
+    background-color: #475569 !important;
+}
+
+.btn-danger {
+    background-color: #ef4444 !important;    ;
+}
+
+.btn-danger:hover {
+    background-color: #dc2626 !important;    ;
+}
+
+.btn-success {
+    background-color: #22c55e !important;
+}
+
+.btn-success:hover {
+    background-color: #16a34a !important;
+}
