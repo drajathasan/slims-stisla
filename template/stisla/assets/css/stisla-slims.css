@@ -41,6 +41,10 @@ html {
     border-radius: 15px;
 }
 
+iframe > .btn {
+    border-radius: 15px;
+}
+
 .btn-info {
     background-color: #0ea5e9;
 }
@@ -68,3 +72,12 @@ html {
 .btn-success:hover {
     background-color: #16a34a !important;
 }
+
+#cboxClose {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+#cboxLoadedContent {
+    padding: 15px 20px 10px 20px !important;
+  }
