@@ -1,5 +1,19 @@
 "use strict";
 
+async function getData(path, callback)
+{
+  try {
+    let request = await fetch('?p=api/' + path)
+    callback(await request.json())
+  } catch (error) {
+    
+  }
+}
+
+getData('fines', function(response) {
+  console.log(response)
+})
+
 if (document.getElementById("myChart")) {
   var ctx = document.getElementById("myChart")?.getContext('2d');
   var myChart = new Chart(ctx, {

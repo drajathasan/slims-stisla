@@ -10,7 +10,7 @@ html {
     min-height: 550px;
 }
 
-#mainMenu {
+#mainMenu {     
     z-index: 1;
     display: inline-flex;
     position: relative;
@@ -80,4 +80,26 @@ iframe > .btn {
 
 #cboxLoadedContent {
     padding: 15px 20px 10px 20px !important;
-  }
+}
+
+ul.sidebar-menu > li > a > span {
+    color: black !important;
+    font-weight: 600;
+}
+
+ul.dropdown-menu > li > a {
+    color: black !important;
+    font-weight: 400;
+}
+
+.bg-sky {
+    background-color: #0ea5e9;
+}
+
+.bg-rose {
+    background-color: #f43f5e;
+}
+
+.bg-lime {
+    background-color: #84cc16;
+}
