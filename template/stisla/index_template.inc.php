@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<?= substr(config('default_lang'), 0,2) ?>">
+<html lang="<?= substr(config('default_lang'), 0,2) ?>" data-uid="<?= $_SESSION['uid'] ?>" data-date="<?= date('Y-m-d') ?>">
 
 <head>
     <?php

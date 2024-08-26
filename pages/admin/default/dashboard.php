@@ -7,15 +7,15 @@
                 </div>
                 <div class="card-stats-items">
                     <div class="card-stats-item">
-                        <div class="card-stats-item-count">24</div>
+                        <div class="card-stats-item-count" id="item">-</div>
                         <div class="card-stats-item-label"><?= __('Total of Items') ?></div>
                     </div>
                     <div class="card-stats-item">
-                        <div class="card-stats-item-count">12</div>
+                        <div class="card-stats-item-count" id="item_lent">-</div>
                         <div class="card-stats-item-label"><?= __('Lent') ?></div>
                     </div>
                     <div class="card-stats-item">
-                        <div class="card-stats-item-count">23</div>
+                        <div class="card-stats-item-count" id="item_available">-</div>
                         <div class="card-stats-item-label"><?= __('Available') ?></div>
                     </div>
                 </div>
@@ -27,8 +27,8 @@
                 <div class="card-header">
                     <h4><?= __('Total of Collections') ?></h4>
                 </div>
-                <div class="card-body">
-                    59
+                <div id="bibliography" class="card-body">
+                    -
                 </div>
             </div>
         </div>
@@ -45,8 +45,8 @@
                 <div class="card-header">
                     <h4>Perolehan Denda <small class="font-weight-bold">(7 hari terakhir)</small></h4>
                 </div>
-                <div class="card-body">
-                    $187,13
+                <div class="card-body" id="fines">
+                    
                 </div>
             </div>
         </div>
@@ -63,8 +63,8 @@
                 <div class="card-header">
                     <h4>Aktivitas Anda (7 hari terakhir)</h4>
                 </div>
-                <div class="card-body">
-                    4,732
+                <div id="activities" class="card-body">
+                    -
                 </div>
             </div>
         </div>
@@ -86,27 +86,9 @@
             <div class="card-header">
                 <h4>5 Anggota Teraktif <small>(7 hari terakhir)</small></h4>
             </div>
-            <div class="card-body" id="top-5-scroll">
-                <ul class="list-unstyled list-unstyled-border">
-                    <li class="media">
-                        <img class="mr-3 rounded" width="55" src="assets/img/products/product-3-50.png" alt="product">
-                        <div class="media-body">
-                            <div class="float-right">
-                                <div class="font-weight-600 text-muted text-small">86 Sales</div>
-                            </div>
-                            <div class="media-title">oPhone S9 Limited</div>
-                            <div class="mt-1">
-                                <div class="budget-price">
-                                    <div class="budget-price-square bg-primary" data-width="64%"></div>
-                                    <div class="budget-price-label">$68,714</div>
-                                </div>
-                                <div class="budget-price">
-                                    <div class="budget-price-square bg-danger" data-width="43%"></div>
-                                    <div class="budget-price-label">$38,700</div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
+            <div class="card-body" id="top-5-scrol">
+                <ul id="members" class="list-unstyled list-unstyled-border">
+                    
                 </ul>
             </div>
             <div class="card-footer pt-3 d-flex justify-content-center">
